@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_universe.css">
+</head>
+
+<body>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-item active" data-type="planets">
+            <img src="logo_planete.png" alt="planets">
+            <span>PLANÈTES</span>
+        </div>
+
+        <div class="sidebar-item" data-type="vehicles">
+            <img src="logo_vehicule.png" alt="vehicles">
+            <span>VÉHICULES</span>
+        </div>
+
+        <div class="sidebar-item" data-type="people">
+            <img src="logo_personnes.png" alt="people">
+            <span>PERSONNES</span>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <header>
+            <nav>
+                <img src="logo_navbar.png" alt="logo">
+                <ul>
+                    <li>Accueil</li>
+                    <li>Prochaine mission</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <h1>ABOUT THE UNIVERSE</h1>
+                <p>bienvenue sur <span>ABOUT THE UNIVERSE</span>pour découvrir toutes nos découvertes a propos du monde
+                    qui nous entoure!</p>
+                <button id="discoverBtn">DÉCOUVRIR</button>
+            </section>
+
+            <section id="stats">
+                <h1>LES CHIFFRES </h1>
+                <p>Nous ous efforcons a archiver toutes nos trouvailles pour vous les partager autant que possible </p>
+                <div id="statsdiv">
+                    <div class="card">
+                        <img src="logo_personnes.png" alt="">
+                        <div class="interieur_card">
+                            <h2>Nombre d'êtres vivant </h2>
+                            <p id="resultppl"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="logo_vehicule.png" alt="">
+                        <div class="interieur_card">
+                            <h2>Nombre de vehicul resencé </h2>
+                            <p id="vehiculCount"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="logo_planete.png" alt="">
+                        <div class="interieur_card">
+                            <h2>Nombre de planete resencé </h2>
+                            <p id="planete"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="logo_temps.png" alt="">
+                        <div class="interieur_card">
+                            <h2>Prochaine mission </h2>
+                            <p>17 decembre 2102</p>
+                            <p id="planete"></p>
+                        </div>
+                    </div>
+
+            </section>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
